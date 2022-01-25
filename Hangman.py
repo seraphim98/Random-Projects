@@ -15,7 +15,7 @@ def word_selection():
     :return: word as  string
     """""
     words = ["Queen", "Pizza", "Penguin", "Clinic", "Seven", "Floccinaucinihilipilification", "Peanut", "Walrus",
-             "Blooming", "Guitar", "Hippopotamus", "Television", "Smelly", "Dog", "Floor", "Plants", "Mjolnir", "Pog"]
+             "Blooming", "Guitar", "Hippopotamus", "Television", "Dog", "Floor", "Plants"]
     word = random.choice(words)
 
     return word
